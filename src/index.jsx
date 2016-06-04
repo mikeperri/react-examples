@@ -5,7 +5,7 @@ import App from './components/App/App';
 main();
 
 function main() {
-	const app = document.createElement('div');
-	document.body.appendChild(app);
-	ReactDOM.render(<App />, app);
+    const app = document.createElement('div');
+    document.body.appendChild(app);
+    ReactDOM.render(<App />, app);
 }

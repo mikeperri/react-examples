@@ -1,6 +1,13 @@
 import React from 'react';
-import Hello from '../Hello/Hello';
+import HelloWorld from '../HelloWorld';
+import TimerManager from '../TimerManager';
 
-export default () => {
-	return <Hello />;
+export default function () {
+
+    return (
+        <div>
+            <HelloWorld />
+            <TimerManager />
+        </div>
+    );
 };
